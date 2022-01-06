@@ -1,0 +1,126 @@
+{
+  "contractName": "HelloWorld",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/learn-solidity/1-basic.sol\":\"HelloWorld\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/learn-solidity/1-basic.sol\":{\"keccak256\":\"0x9fb8d732356a5fe36722e1de763dff6b7fd9e8ef48fc8e77f81158c526ef4081\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3254f4e07b692c1cf01abb627985da795f95459a46704b3e07f4715bd525e6d8\",\"dweb:/ipfs/QmT2utVkfmsL59EihJNXFaQJTTe7jJNuyAPdi5hHX8RJEN\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220ab902d8ff5943ad05ed29e7dba8be60420f0925c164a899199810662a7f2f1a064736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220ab902d8ff5943ad05ed29e7dba8be60420f0925c164a899199810662a7f2f1a064736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "138:23:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "138:23:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\n// compiler version must be greater than or equal to 0.8.10 and less than 0.9.0\npragma solidity ^0.8.10;\n\ncontract HelloWorld {\n}\n",
+  "sourcePath": "/Users/zuray/Documents/projects/kryptoCamp/Camp1/tz/solidity-practice/contracts/learn-solidity/1-basic.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/learn-solidity/1-basic.sol",
+    "exportedSymbols": {
+      "HelloWorld": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "112:24:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "HelloWorld",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "HelloWorld",
+        "nameLocation": "147:10:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "138:23:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "112:50:0"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/learn-solidity/1-basic.sol",
+    "exportedSymbols": {
+      "HelloWorld": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "112:24:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "HelloWorld",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "HelloWorld",
+        "nameLocation": "147:10:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "138:23:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "112:50:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xDA0aC54a055fbc0C0123cFB942C7B86EbE6aEdcD",
+      "transactionHash": "0x8a3e764a83fdcdd5f0c588d775f7d60c749ac2159998affa9264a11f11afc436"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-06T05:22:07.061Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

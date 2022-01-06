@@ -1,0 +1,319 @@
+{
+  "contractName": "ZombieFactory",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Zombies.sol\":\"ZombieFactory\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Zombies.sol\":{\"keccak256\":\"0x3786a6190fb31a9408d22c0da6e667683f518b24c570701030b6084b0b2f0a8f\",\"urls\":[\"bzz-raw://97ca48aee2064a55d91e200cdf9f6f70086920b6db49443c0ad8203715edea0b\",\"dweb:/ipfs/QmY97sTJxPSpxFRaQK857eQECH9Rm3GajVSEcBg6S3VNGt\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122056ddfc27b1efd0938007b92a97382323e4b1005aea0240def66656bb340b21bb64736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122056ddfc27b1efd0938007b92a97382323e4b1005aea0240def66656bb340b21bb64736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "26:101:3:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "26:101:3:-:0;;;;;",
+  "source": "pragma solidity ^0.8.10;\n\ncontract ZombieFactory {\n  struct Zombie {\n    string name;\n    string dna;\n  }\n\n  Zombie myZombie;\n}\n",
+  "sourcePath": "/Users/zuray/Documents/projects/kryptoCamp/Camp1/tz/solidity-practice/contracts/Zombies.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Zombies.sol",
+    "exportedSymbols": {
+      "ZombieFactory": [
+        86
+      ]
+    },
+    "id": 87,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 77,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ZombieFactory",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 86,
+        "linearizedBaseContracts": [
+          86
+        ],
+        "name": "ZombieFactory",
+        "nameLocation": "35:13:3",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "ZombieFactory.Zombie",
+            "id": 82,
+            "members": [
+              {
+                "constant": false,
+                "id": 79,
+                "mutability": "mutable",
+                "name": "name",
+                "nameLocation": "80:4:3",
+                "nodeType": "VariableDeclaration",
+                "scope": 82,
+                "src": "73:11:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 78,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "73:6:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 81,
+                "mutability": "mutable",
+                "name": "dna",
+                "nameLocation": "97:3:3",
+                "nodeType": "VariableDeclaration",
+                "scope": 82,
+                "src": "90:10:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 80,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "90:6:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Zombie",
+            "nameLocation": "60:6:3",
+            "nodeType": "StructDefinition",
+            "scope": 86,
+            "src": "53:52:3",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 85,
+            "mutability": "mutable",
+            "name": "myZombie",
+            "nameLocation": "116:8:3",
+            "nodeType": "VariableDeclaration",
+            "scope": 86,
+            "src": "109:15:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_struct$_Zombie_$82_storage",
+              "typeString": "struct ZombieFactory.Zombie"
+            },
+            "typeName": {
+              "id": 84,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 83,
+                "name": "Zombie",
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 82,
+                "src": "109:6:3"
+              },
+              "referencedDeclaration": 82,
+              "src": "109:6:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_Zombie_$82_storage_ptr",
+                "typeString": "struct ZombieFactory.Zombie"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 87,
+        "src": "26:101:3",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:128:3"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Zombies.sol",
+    "exportedSymbols": {
+      "ZombieFactory": [
+        86
+      ]
+    },
+    "id": 87,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 77,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ZombieFactory",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 86,
+        "linearizedBaseContracts": [
+          86
+        ],
+        "name": "ZombieFactory",
+        "nameLocation": "35:13:3",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "ZombieFactory.Zombie",
+            "id": 82,
+            "members": [
+              {
+                "constant": false,
+                "id": 79,
+                "mutability": "mutable",
+                "name": "name",
+                "nameLocation": "80:4:3",
+                "nodeType": "VariableDeclaration",
+                "scope": 82,
+                "src": "73:11:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 78,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "73:6:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 81,
+                "mutability": "mutable",
+                "name": "dna",
+                "nameLocation": "97:3:3",
+                "nodeType": "VariableDeclaration",
+                "scope": 82,
+                "src": "90:10:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 80,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "90:6:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Zombie",
+            "nameLocation": "60:6:3",
+            "nodeType": "StructDefinition",
+            "scope": 86,
+            "src": "53:52:3",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 85,
+            "mutability": "mutable",
+            "name": "myZombie",
+            "nameLocation": "116:8:3",
+            "nodeType": "VariableDeclaration",
+            "scope": 86,
+            "src": "109:15:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_struct$_Zombie_$82_storage",
+              "typeString": "struct ZombieFactory.Zombie"
+            },
+            "typeName": {
+              "id": 84,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 83,
+                "name": "Zombie",
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 82,
+                "src": "109:6:3"
+              },
+              "referencedDeclaration": 82,
+              "src": "109:6:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_Zombie_$82_storage_ptr",
+                "typeString": "struct ZombieFactory.Zombie"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 87,
+        "src": "26:101:3",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:128:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-05T05:56:25.778Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
